@@ -1,0 +1,67 @@
+body{
+    background-color: #a8dadc;
+    font-family: 'Nunito', sans-serif;
+    margin: auto;
+
+}
+#navBrand{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5rem;
+}
+#mainNavbar{
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+#mainNavbar .nav-link{
+    color: #f1faee;
+}
+#mainNavbar .nav-link:hover{
+    color: grey;
+}
+#street h2{
+    margin-top: 10px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5rem;
+    color: #f1faee;
+}
+#slash{
+    color: grey;
+}
+#search{
+    border: 1px solid #457b9d;
+    border-radius: 30px;
+    color: #348efe;
+    display: inline-block;
+    padding: 10px 25px;
+    margin: 15px 0;
+    transition: background-color, 0.5s ease-in-out;
+}
+#search:hover{
+    background-color: #e1f1ff;
+}
+#id, #signin{
+    width: 50px;
+}
+@media (max-width:1200px){
+    #street h2{
+        font-size: 4rem;
+    }
+}
+#logo{
+    width: 200px;
+}
+#about-header{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5rem;
+    color: #f1faee;
+}
+#about{
+    color: #f1faee;
+}
+#content{
+    margin-bottom: 100px;
+}
+#mainNavbar.scrolled{
+    background:#457b9d;
+    transition: background 0.5s;
+}
